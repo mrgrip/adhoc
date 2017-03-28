@@ -142,6 +142,10 @@ body {
 	.jumbotron p {
 		font-size: 1rem;
 	}
+
+	.banner-width {
+		width: 95%;
+	}
 }
 
 /* Quotation Citation */
@@ -293,7 +297,22 @@ body {
 }
 
 .client-logos img {
-	width: 100%;
+	/*width: 100%;*/
+}
+
+@media only screen and (max-width: 991px) {
+	.client-logos {
+		margin-top: 0;
+		margin-bottom: 2.5rem;
+	}
+
+	.client-logos img {
+		padding-bottom: 3rem;
+	}
+
+	#quantum {
+		padding-bottom: 0;
+	}
 }
 
 @media only screen and (max-width: 770px) {
