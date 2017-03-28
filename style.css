@@ -77,6 +77,10 @@ html {
 	font-size: 16px;
 }
 
+body {
+	background-color: #f8f8f8;
+}
+
 /***** Custom CSS *****/
 
 /* Navbar */
@@ -148,6 +152,93 @@ html {
 	font-family: "Arbutus Slab", serif;
 	font-size: 3rem;
 	position: relative;
-	bottom: 2rem;
+	bottom: 3rem;
 	text-align: center;
+}
+
+.why h3 span {
+	background-color: #f8f8f8;
+	z-index: 10;
+	padding: 0 1.25rem;
+}
+
+.why-logos {
+	margin-top: 2.25rem;
+}
+
+/* Meet the team */
+
+.meet {
+	background-color: #4a4a4a;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.meet h3 {
+	margin-top: 5.5rem;
+	font-family: "Arbutus Slab", serif;
+	font-size: 3rem;
+	color: white;
+	/*text-align: center;*/
+}
+
+.staff {
+	margin-top: 3.375rem;
+	margin-bottom: 7.25rem;
+}
+
+.staff strong {
+	margin-top: 2rem;
+}
+
+.staff strong, .staff span {
+	display: block;
+	color: white;
+}
+
+/* Current clients */
+
+.client {
+	border-top: 1px solid #d4d5d6;
+	margin-top: 5.25rem;
+}
+
+.client h3 {
+	font-family: "Arbutus Slab", serif;
+	font-size: 3rem;
+	position: relative;
+	bottom: 3rem;
+	text-align: center;
+}
+
+.client h3 span {
+	background-color: #f8f8f8;
+	z-index: 10;
+	padding: 0 1.25rem;
+}
+
+.client-logos {
+	margin-top: 5.5rem;
+	margin-bottom: 5rem;
+}
+
+/* Footer */
+
+footer {
+	background-color: #e9ebeb;
+	text-align: center;
+}
+
+.fa-icons {
+	padding-top: 2.625rem;
+}
+
+.copyright {
+	margin-top: 1.5rem;
+	padding-bottom: 2rem;
+}
+
+.copyright span {
+	font-size: 0.75rem;
+	color: #212123;
 }
